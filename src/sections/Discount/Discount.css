@@ -1,0 +1,15 @@
+.beauty {
+    font-size: 50px;
+    font-weight: bold;
+    color: black; 
+    /* max-width: 30rem; */
+    /* text-align: center; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 8rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-bottom: 2px solid indianred;
+    padding-bottom: 10px;
+  }
+  

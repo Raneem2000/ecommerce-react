@@ -1,0 +1,27 @@
+:root{
+  /* هذاالراوت سيحوي جميع المتغيرات التي سأحتاجها */
+  --color-dark  : rgb(51, 45, 54);
+  --color-darkest :rgb(133, 41, 133);
+  --color-light : rgb(34, 29, 36);
+  --color-primary : rgb(225, 197, 238);
+  --color-bg-body :var(--color-dark);
+  --color-icons : rgb(70, 70, 19);
+  --color-dashed :rgb(110, 59, 102);
+  --color-button:  rgb(21, 204, 143);
+  
+  --distance-primary :50px;
+  --padding-primary :var(--distance-primary);
+  --margin-primary :var(--distance-primary);
+  --border-radius-primary : calc(var(--distance-primary)/ 2);
+  
+  --font-family-primary :'poppins' , sans-serif;
+  --font-weight-bold : 900;
+  --font-weight-normal : 400;
+  
+  
+  }
+  /* تضمين مكتبة الخطوط هنا مع الأوزان حيث نضع فاصلة منقوطة ;  بين الوزن والوزن الآخر*/
+  body {
+      background-color:  var(--color-darkest);
+  }
+  

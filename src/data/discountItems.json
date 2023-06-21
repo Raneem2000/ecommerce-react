@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s22.png"
+    },
+    {
+        "id": 2,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s34.png"
+
+    },
+    {
+        "id": 3,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s24.png"
+     },
+    {
+        "id": 4,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s35.png"
+       },
+       {
+        "id": 5,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s27.png"
+      },
+       {
+        "id": 6,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/kk.png"
+       },
+       {
+        "id": 7,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/ii.png"
+       },
+       {
+        "id": 8,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/p.png"
+       },
+       {
+        "id": 9,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/y.png"
+       },
+       {
+        "id": 10,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/u.png"
+       },
+       
+    {
+        "id": 11,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a6.png"
+      },
+      {
+        "id": 12,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a7.png"
+      },
+      {
+        "id": 13,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a8.png"
+      },
+      {
+        "id": 14,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a13.png"
+      },
+      {
+        "id": 15,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a14.png"
+      }
+    
+]

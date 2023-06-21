@@ -1,0 +1,93 @@
+[
+    {
+        "id": 16,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/eee.png"
+    },
+    {
+        "id": 102,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/f.png"
+
+    },
+    {
+        "id": 103,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/t.png"
+     },
+    {
+        "id": 104,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/jj.png"
+       },
+    {
+        "id": 105,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/bags/bbb.png"
+      },
+      {
+        "id": 106,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a27.jpg"
+      },
+      {
+        "id": 107,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a10.png"
+      },
+      {
+        "id": 108,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/sh.jpg"
+      },
+      {
+        "id": 109,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/sh.png"
+      },
+      {
+        "id": 110,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/shoes/a5.png"
+      },
+      {
+        "id": 111,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s30.png"
+      },
+      {
+        "id": 112,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s50.png"
+      },
+      {
+        "id": 113,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s51.png"
+      },
+      {
+        "id": 114,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s52.png"
+      },
+      {
+        "id": 115,
+        "name": "product",
+        "price": 10.99,
+        "imgUrl": "assets/images/gifts/s53.png"
+      }
+]
