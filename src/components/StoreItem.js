@@ -7,7 +7,7 @@ const StoreItem = ( {id , price , name , imgUrl} ) => {
   const {getItemQuantity, increaseCartQuantity,decreaseCartQuantity, removeItemFromCart} = useShoppingCart ();
   const quantity = getItemQuantity(id);
   return (
-    <Card className='h-100'>
+    <Card className='h-100 p-5'>
         <Card.Img
         src={imgUrl} 
         variant="top" 
@@ -26,7 +26,7 @@ const StoreItem = ( {id , price , name , imgUrl} ) => {
               <div className='d-flex align-items-center justify-content-center'
               style={{gap:'0.5rem'}}>
                 <Button size='sm' style={{backgroundColor:'#416da0'}} onClick={()=>decreaseCartQuantity(id)}>-</Button>
-                <span className='fs-3'>{quantity} in Cart</span>
+                <span className='fs-4'>{quantity} in Cart</span>
                 <Button size='sm'style={{backgroundColor:'#416da0'}} onClick={()=>increaseCartQuantity(id)}>+</Button>
               </div>
               <Button  size='sm' style={{backgroundColor:'red'}} onClick={()=>removeItemFromCart(id)}>

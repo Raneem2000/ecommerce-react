@@ -16,7 +16,7 @@ const CartItem = ({id , quantity}) => {
     gap ={2}>
     
     <img src ={item.imgUrl} alt='cart-img'
-    style ={{ width :'125px' , height : '75px' ,objectFit : 'cover'}}
+    style ={{ width :'75px' , height : '75px' ,objectFit : 'cover'}}
     />
     <div className='me-auto'>
         {item.name}

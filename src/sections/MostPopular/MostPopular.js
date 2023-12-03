@@ -8,7 +8,7 @@ const MostPopular = () => {
     <div id="most">
     <Text text= '_ most Popular _'/>
     <div className='store'>
-    <Row md={2} xs={1} lg={5} className='g-3'>
+    <Row md={2} xs={1} lg={3} className='g-3'>
     {storeItems.map((item) => (
       <Col key={item.id}>
         <StoreItem {...item}/>

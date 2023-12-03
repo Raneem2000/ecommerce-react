@@ -1,14 +1,13 @@
-.Hero{
+.Hero {
   z-index: 2000;
 }
-.hero-main{
+.hero-main {
   /* background: url('../../assets/images/bags/bg.jpg')  no-repeat center center /cover;  */
-  margin-top:5rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-around;
   margin-bottom: 5rem;
   z-index: 20000;
-
 }
 .hero-text {
   /* margin-top: 50px; */
@@ -18,10 +17,9 @@
   box-shadow: 0px 0px 10px rgba(249, 178, 178, 0.9); */
 }
 .beauty-heading {
-  
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
-  color:rgb(228, 114, 114); 
+  color: rgb(228, 114, 114);
   font-family: Roboto;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -30,10 +28,9 @@
   text-shadow: 2px 2px 2px indianred;
   border-bottom: 3px solid yellow;
   padding-bottom: 0px;
-  
 }
 
-.hero-subtitle{
+.hero-subtitle {
   font-size: 60px;
   font-weight: 800;
   /* margin: 6rem; */
@@ -42,30 +39,33 @@
   text-transform: uppercase;
   max-width: 40%;
 }
-.our{
+.our {
   margin: 6rem;
   margin-left: 4rem;
-  
 }
-.Discounts , .most-popular{
-  font-size: 2.5rem;
+.Discounts,
+.most-popular {
+  font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color:gray; 
+  color: gray;
   font-family: Roboto;
   /* text-transform: uppercase; */
   letter-spacing: 0.5px;
   /* text-shadow: 2px 2px 2px rgb(0, 0, 0); */
   /* border-bottom: 2px solid indianred; */
 }
-.mostPopular , .Discount{
+.mostPopular,
+.Discount {
   display: flex;
   justify-content: space-between;
+  margin-left: -3rem;
 }
-.mostPopular img , .Discount img{
-width: 15%;
-height: 15%;
-margin-top: 10px;
+.mostPopular img,
+.Discount img {
+  width: 15%;
+  height: 15%;
+  margin-top: 10px;
 }
 
 .social-links {
@@ -96,24 +96,44 @@ margin-top: 10px;
 }
 
 .social-links a:hover {
-  color: indianred; 
+  color: indianred;
   transition: transform 0.3s ease;
   transform: translate(5px, 5px);
 }
 
-
-.girl img{
+.girl img {
   width: 75%;
   height: 100%;
   margin-left: 10%;
-  border:  3px solid rgb(243, 236, 236);
+  border: 3px solid rgb(243, 236, 236);
   border-radius: 50%;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
-
 }
-.mostPopular a  , .Discount a{
+.mostPopular a,
+.Discount a {
   color: indianred;
-  text-decoration: none;  
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .girl img {
+    display: none;
+  }
+}
+@media (max-width: 920px) {
+  .hero-main h2 {
+    font-size: 2rem;
+  }
+  .mostPopular h4, .Discount h4 {
+    font-size: 1.5rem;
+    min-width: 150px;
+    margin-left: 5px;
+  }
+  .mostPopular img,
+  .Discount img {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+  }
 }
 /* General Style */
 /*   
